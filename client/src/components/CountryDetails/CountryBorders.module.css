@@ -1,0 +1,22 @@
+.list {
+    list-style-type: none;
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.listItem {
+    background-color: #28b463;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.link:hover {
+    color: #f7dc6f;
+}
+
+@media screen and (max-width: 760px) {
+    .list {
+        justify-content: center;
+    }
+}

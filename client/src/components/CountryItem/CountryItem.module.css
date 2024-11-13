@@ -1,0 +1,9 @@
+.country {
+    background-color: #28b463;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.link:hover {
+    color: #f7dc6f;
+}
